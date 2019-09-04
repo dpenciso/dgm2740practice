@@ -1,3 +1,20 @@
 @media only screen and (min-width: 30rem) {
     
+nav li {
+    float: left;
+    width: auto;
+}
+
+nav li a {
+    padding: .5rem 1rem;
+}
+
+nav ul {
+    padding-left: 2%;
+}
+
+figure.medium {
+    
+}
+
 } /* end of media query */

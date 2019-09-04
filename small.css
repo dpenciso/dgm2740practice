@@ -70,3 +70,32 @@ nav a {
 nav a:hover {
   background-color: #333;
 }
+
+main {
+  padding: 1rem 2%;
+  display: block;
+}
+
+main h1 {
+  color: rgb(116, 192, 236);
+}
+
+figure.small {
+  margin: 0 0 0 .5%;
+}
+
+figure.small figcaption {
+  padding: 2% 0 0 0;
+}
+
+figure.small img {
+  display: block;
+  width: 50%;
+
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 2%;
+  background-color: rgb(116, 192, 236);
+}
