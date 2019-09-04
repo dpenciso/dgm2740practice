@@ -22,3 +22,51 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     display: table;
     clear: both;
   }
+
+body {
+  font-family: Verdana;
+  font-size: 16px;
+}
+
+header {
+  background-color: rgb(116, 192, 236);
+  padding: 1rem 2%;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h2 {
+  margin: 0;
+}
+
+nav {
+  background-color: #000;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav li.active {
+  background-color: rgb(148, 144, 144);
+}
+
+nav a {
+  display: block;
+  padding: .8rem 0;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #333;
+}
