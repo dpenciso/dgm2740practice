@@ -5,7 +5,25 @@ main {
 }
 
 figure.large {
-    
-}
+    margin: 0 0 0 .5%;
+    display: block;
+  }
+  
+  figure.medium {
+    display: none;
+  }
+  
+  figure.small {
+    display: none;
+  }
+
+  figure.large img {
+    display: block;
+    width: 100%;
+  }
+
+  figure.large figcaption {
+    text-align: center;
+  }
 
 } /* end of media query */

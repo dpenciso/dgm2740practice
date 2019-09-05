@@ -14,7 +14,25 @@ nav ul {
 }
 
 figure.medium {
-    
-}
+    margin: 0 0 0 .5%;
+    display: block;
+  }
+  
+  figure.small {
+    display: none;
+  }
+  
+  figure.large {
+    display: none;
+  }
+
+  figure.medium img {
+    display: block;
+    width: 100%;
+  }
+
+  figure.medium figcaption {
+    text-align: center;
+  }
 
 } /* end of media query */
